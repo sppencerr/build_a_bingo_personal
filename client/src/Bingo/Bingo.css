@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center ;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: left;
+}
+    
+button {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid green;
+    /* width: 125px;
+   height: 125px;
+   font-size: 16px;
+   padding: 7px 20px 7px 20px; */
+    background-color: #58CAE0;
+    /* margin: 4px; */
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    font-weight: bold;
+}
+
+button.active {
+    background-color: #fad1d1 ;
+    color: #6ee073;
+    font-weight: bold;
+}
+
+.horizontal-footer{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 2rem;
+    font-weight:bold;
+    font-size: 10pt;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    color:#fad1d1;
+}
